@@ -1,8 +1,8 @@
 # aframe-presentation-kit
 
-Official starter slides for giving talks and presentations about A-Frame.
+Traducción no oficial de diapositivas de inicio para dar charlas y presentaciones sobre A-Frame.
 
-[VIEW SLIDES](https://aframe.io/aframe-presentation-kit/#/)
+[VIEW SLIDES](https://mozillaperu.github.io/aframe-presentation-kit/#/)
 
 ## Installation
 
