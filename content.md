@@ -30,7 +30,7 @@
 <!-- .slide: data-background="media/img/vrshooting.jpg" data-state="state--bg-dark" -->
 
 <!-- NOTES -->
-- Cuente historias interesantes sobre sus experiencias con VR.
+- Contar historias interesantes sobre sus experiencias con VR.
 
 ---
 
@@ -74,7 +74,7 @@
 <!-- NOTES -->
 - Las tiendas de aplicaciones y las corporaciones controlan la distribución: pueden eliminar o bloquear contenido
 - Las descargas / instalaciones son una barrera para el consumo: páginas de pequeñas empresas
-- Un ecosistema cerrado: motores patentados, curvas de aprendizaje abruptas, experiencias de aisladas, fragmentación
+- Un ecosistema cerrado: motores patentados, curvas de aprendizaje abruptas, experiencias aisladas, fragmentación
 - Queremos que VR tenga éxito, por lo que queremos una plataforma sin estos puntos de fricción. La respuesta es WebVR ...
 
 ------
@@ -101,7 +101,7 @@ Una plataforma abierta de realidad virtual con las ventajas de **la Web**
 <!-- NOTES -->
 WebVR es... la realidad virtual en el navegador, potenciada por la Internet
 
-Open:
+Abierta:
 - Cualquiera puede publicar
 - Cultura de Código Abierto con estándares abiertos
 
@@ -123,13 +123,13 @@ Transición:
 
 <img class="stretch" data-src="media/img/webvr.png">
 
-Las API del navegador son las que permiten renderizar WebGL a los auriculares y acceder a los sensores VR
+Las API del navegador son las que permiten renderizar WebGL a los visores de VR y acceder a los sensores VR
 
 https://w3c.github.io/webvr/
 
 <!-- NOTES -->
 API:
-- Una ruta optimizada para los auriculares
+- Una ruta optimizada para los visores
 - Acceso a los datos de posición y rotación
 
 Historia:
@@ -177,7 +177,7 @@ No es sólo una especificación, está implementada...
 - Alterna la realidad digital que el mundo puede vivir, trabajar, jugar
 - Debe ser descentralizado / abierto / conectado, la web es la mejor plataforma para realizar completamente
 - ¿Por dónde comenzamos?
-- three.js abstrae WebGL, 3D, y WebVR, Pero todavía podemos hacerlo más accessible
+- three.js abstrae WebGL, 3D, y WebVR. Pero todavía podemos hacerlo más accessible
 
 ---
 
@@ -218,7 +218,7 @@ Un framework declarativo para construir experiencias de realidad virtual en la W
 
 <!-- NOTES -->
 - Lanzado en diciembre pasado
-- ¿Por qué?:
+- ¿Por qué?
   - Fácil para los desarrolladores web crear contenido VR, sin conocimientos gráficos
   - Prototipar y experimentar WebVR y VR UX más rápido
   - Vehículo para arrancar el ecosistema WebVR
@@ -248,8 +248,8 @@ Un framework declarativo para construir experiencias de realidad virtual en la W
 - Poner una etiqueta de script, sin pasos de construcción
 - Usando Custom HTML Elements
 - Una línea de HTML `<a-scene>` maneja
-  - lienzo, cámara, renderiador, luces, controles, bucle de renderizado, WebVR polyfill, VREffect
-- Poner las cosas de nuestra escena...
+  - lienzo, cámara, renderizador, luces, controles, bucle de renderizado, WebVR polyfill, VREffect
+- Pone las cosas de nuestra escena...
 
 ---
 
@@ -328,7 +328,7 @@ Un framework declarativo para construir experiencias de realidad virtual en la W
 
 <!-- NOTES -->
 
-- Basado en HTML, compatible con todas las librarías/frameworks existentes
+- Basado en HTML, compatible con todas las librerías/frameworks existentes
 - Buena razón para tener HTML como capa intermediaria entre WebGL/three.js
 - Todas las herramientas fueron pensadas con la noción de HTML
 - Bajo el capó, A-Frame es un framework extensible y declarativo para three.js...
