@@ -367,9 +367,16 @@ html:-moz-full-screen-ancestor {
 
 .captioned-image-row {
   display: flex;
+  margin-bottom: 30px !important;
+}
+
+.captioned-image-row.small img {
+  max-height: 128px !important;
+  max-width: 128px !important;
 }
 
 .captioned-image-row div {
+  align-items: center;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -394,7 +401,7 @@ body:not(.aframe-inspector-opened) .toggle-edit {
 
 .slide__title {
   height: 100%;
-  width: 100%:
+  width: 100%;
 }
 
 .slide__title h1,
