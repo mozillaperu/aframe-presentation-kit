@@ -1,8 +1,8 @@
 # aframe-presentation-kit
 
-Traducción no oficial de diapositivas de inicio para dar charlas y presentaciones sobre A-Frame.
+Traducción (no oficial) al español de los slides de inicio para dar charlas y presentaciones sobre A-Frame.
 
-[VIEW SLIDES](https://mozillaperu.github.io/aframe-presentation-kit/#/)
+[Ver slides](https://mozillaperu.github.io/aframe-presentation-kit/#/)
 
 ## Installation
 
@@ -19,23 +19,22 @@ Traducción no oficial de diapositivas de inicio para dar charlas y presentacion
 - WebVR
   - Advantages
   - API
-  - Browser Support
-  - The Web is Ready for VR
+  - Browsers
   - Metaverse
   - Barrier to Entry
 - A-Frame
   - Introduction
   - Hello World
-  - Multiuser Demo
+  - Demo
+  - Works With Everything
 - Entity-Component-System
   - Concept
   - Composing an Entity
-  - Structure of a Component
-- Ecosystem
-  - Community
-  - Components
-  - Scenes
-- Conclusion
+  - Registry
+  - Inspector
+- Community
+  - Examples
+  - Numbers
 
 ## Modifying Design
 
