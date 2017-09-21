@@ -2,7 +2,7 @@
 
 Traducción (no oficial) al español de los slides de inicio para dar charlas y presentaciones sobre A-Frame.
 
-[Ver slides](https://mozillaperu.github.io/aframe-presentation-kit/#/)
+[Ver slides](https://mozilla.pe/aframe-presentation-kit/#/)
 
 ## Installation
 
